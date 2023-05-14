@@ -6,7 +6,7 @@ public class MultiplyTable {
     {
         Scanner numberScanner = new Scanner(System.in);
 
-        System.out.println("Veuillez entrez un chiffre pour choisir votre table de multiplication : ");
+        System.out.println("Enter a number to choose your multiply table : ");
 
         int inputNumber = numberScanner.nextInt();
 
