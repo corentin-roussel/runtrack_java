@@ -7,19 +7,16 @@ public class VoitureTest {
     public static boolean state = false;
     public static void main(String[] args)
     {
-        state = stateChange(state);
+        stateChange();
 
-        speed = speedInc(state, speed);
-        System.out.println("La vitesse est de maintenant " + speed + " km/h");
+        speedInc();
 
-        speed = speedInc(state, speed);
-        System.out.println("La vitesse est de maintenant " + speed + " km/h");
+        speedInc();
 
-        state = stateChange(state);
-
+        stateChange();
     }
 
-    public static boolean stateChange(boolean state)
+    public static void stateChange()
     {
 
 
@@ -38,18 +35,17 @@ public class VoitureTest {
         {
             speed = 0;
         }
-
-        return state;
     }
 
-    public static int speedInc(boolean state, int speed)
+    public static void speedInc()
     {
         if(state)
         {
             speed += 10;
+            System.out.println("La vitesse est de maintenant " + speed + " km/h");
         }
 
-        return speed;
+        System.out.println("La vitesse est de maintenant " + speed + " km/h");
     }
 
 
