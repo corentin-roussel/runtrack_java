@@ -1,4 +1,4 @@
-package job2;
+package job02;
 
 public class VoitureTest {
 

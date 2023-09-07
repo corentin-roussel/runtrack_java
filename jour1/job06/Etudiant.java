@@ -1,4 +1,4 @@
-package job6;
+package job06;
 import java.util.*;
 
 public class Etudiant {

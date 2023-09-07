@@ -1,6 +1,4 @@
-package job7;
-
-import java.util.*;
+package job07;
 
 public class FormesTest {
 

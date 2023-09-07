@@ -1,5 +1,4 @@
-package job4;
-import java.sql.SQLOutput;
+package job04;
 import java.util.Scanner;
 
 public class CompteBancaire {

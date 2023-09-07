@@ -1,4 +1,4 @@
-package job5;
+package job05;
 import java.util.Random;
 
 public class JeuDeDes {

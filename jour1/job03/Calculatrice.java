@@ -1,4 +1,4 @@
-package job3;
+package job03;
 import java.util.Scanner;
 
 public class Calculatrice {

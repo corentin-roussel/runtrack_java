@@ -1,4 +1,4 @@
-package job1;
+package job01;
 import java.util.Scanner;
 
 public class HelloWorld {
