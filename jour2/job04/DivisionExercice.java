@@ -4,22 +4,16 @@ public class DivisionExercice extends AbstractDivision {
 
 
     public static void main(String[] args) {
-        checkDivisionByZero();
+
+        try{
+            divide();
+        }catch(Exception e){
+            System.out.println(e.getMessage());
+        }
+
     }
 
-    public static void checkDivisionByZero()
-    {
 
-        System.out.println();
-        if(number2 == 0)
-        {
-            throw new IllegalArgumentException("Erreur: Division par zéro");
-        }
-        else
-        {
-            System.out.println(divide());
-        }
-    }
 
 
 
