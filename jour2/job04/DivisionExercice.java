@@ -1,10 +1,18 @@
-package job04;
+public class DivisionExercice {
 
-public class DivisionParZeroException {
+    static int number1 = 10;
+    static int number2 = 0;
 
-    int number1 = 10;
-    int number2 = 0;
+    public static void main(String[] args) {
+        try {
+            float divide = number1 / number2;
+        } catch(Exception e) {
+            System.out.println("Erreur: Division par zéro");
+        }
+    }
 
-    
+
+
+
 
 }
