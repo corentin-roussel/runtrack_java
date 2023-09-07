@@ -1,4 +1,11 @@
-package job02;
 
-public class NageExercice {
+
+public class Homme implements Nageur {
+
+    public String nager()
+    {
+        return "L'homme nage";
+    }
+
+
 }

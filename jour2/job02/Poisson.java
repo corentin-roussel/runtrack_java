@@ -1,4 +1,9 @@
-package job02;
 
-public class Poisson {
+
+public class Poisson implements Nageur {
+    public String nager()
+    {
+        return "Le poisson nage rapidement";
+    }
+
 }

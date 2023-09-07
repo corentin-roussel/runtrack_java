@@ -1,4 +1,6 @@
-package job02;
 
 public interface Nageur {
+
+    String nager();
+
 }
