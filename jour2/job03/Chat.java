@@ -1,4 +1,10 @@
-package job03;
+public class Chat extends AbstractAnimal{
 
-public class Chat {
+
+    public static void faireDuBruit()
+    {
+        System.out.println("Le chat miaule");
+    }
+
+
 }

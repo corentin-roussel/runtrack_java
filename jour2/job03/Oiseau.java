@@ -1,4 +1,7 @@
-package job03;
+public class Oiseau extends AbstractAnimal {
 
-public class Oiseau {
+    public static void faireDuBruit()
+    {
+        System.out.println("L'oiseau chante");
+    }
 }

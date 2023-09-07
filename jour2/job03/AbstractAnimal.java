@@ -1,2 +1,7 @@
-package job03;public class AbstractAnimal {
+
+
+abstract class AbstractAnimal {
+
+    public static void faireDuBruit(){}
+
 }
