@@ -1,15 +1,27 @@
-public class DivisionExercice {
 
-    static int number1 = 10;
-    static int number2 = 0;
+public class DivisionExercice extends AbstractDivision {
+
+
 
     public static void main(String[] args) {
-        try {
-            float divide = number1 / number2;
-        } catch(Exception e) {
-            System.out.println("Erreur: Division par zéro");
+        checkDivisionByZero();
+    }
+
+    public static void checkDivisionByZero()
+    {
+
+        System.out.println();
+        if(number2 == 0)
+        {
+            throw new IllegalArgumentException("Erreur: Division par zéro");
+        }
+        else
+        {
+            System.out.println(divide());
         }
     }
+
+
 
 
 
