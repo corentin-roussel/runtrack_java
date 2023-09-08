@@ -9,11 +9,6 @@ public class Optional {
         java.util.Optional<String> optionalValue = java.util.Optional.ofNullable(value);
 
 
-        if(optionalValue.isPresent())
-        {
-            System.out.println("Longueur de la chaine " +value.length());
-        }else {
-            System.out.println("Chaine non fournie");
-        }
+        System.out.println(optionalValue.orElse("Chaine non fournie"));
     }
 }
